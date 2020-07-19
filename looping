@@ -1,0 +1,40 @@
+package corejava;
+//import java.util.Scanner;
+public class Dconditions {
+public static void main(String[] args) {	
+	/*int a;
+	int b;
+	Scanner s=new Scanner(System.in);
+	System.out.println("a is");
+	a=s.nextInt();
+	Scanner s1=new Scanner(System.in);
+	System.out.println("b is");
+	b=s1.nextInt();
+	int c;
+	System.out.println(c=a+b);
+if (c>3){		
+	System.out.println("you got pass");
+}
+else{
+	System.out.println("fil");
+}
+}
+}
+*/
+	int a=3;
+	switch (a) {
+	case 1:
+		System.out.println("1st");
+	break;
+	case 3:
+		System.out.println("2nd");
+		break;
+	default:
+		System.out.println("3rd default");
+		break;
+	}
+	
+	
+	
+	
+}}
