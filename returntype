@@ -1,0 +1,24 @@
+package corejava;
+public class CreturnType {
+	int money=100;
+	//for collecting return type need to use void to Integer
+public int Collectmoney()
+{
+	System.out.println("collected the money"+money);
+	return money;
+}
+	public static void main(String[] args) {
+	CreturnType returnType=new CreturnType();
+	int a=returnType.Collectmoney();
+	System.out.println("collected amount given "+a);
+}
+}
+
+/*
+//Note: 
+we need to use data type in method then only able to return the value 
+
+in this program we have used void to int in 1st method
+
+
+*/
