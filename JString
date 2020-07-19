@@ -1,0 +1,34 @@
+package corejava;
+public class JString {
+public static void main(String[] args) {
+String name="Prakash";
+	System.out.println(name);
+	System.out.println(name.substring(3, 7));
+	System.out.println(name.codePointAt(3));
+	System.out.println(name.concat("N"));
+	System.out.println(String.join(".","N","Prakash","N"));
+	System.out.println(name.codePointBefore(3));
+StringBuffer name1=new StringBuffer("Prakash");
+	System.out.println(name1.reverse());
+	System.out.println(name1.replace(1, 3, "rak"));	
+	System.out.println(name1.append("N"));
+	System.out.println(name1);
+	System.out.println("class");
+	
+
+	
+}
+}
+
+
+/*
+Note:
+
+String is immutable that means not able to change the value, and not able to reveres the value (immutable)
+
+so we use string buffer for reveres the value and able to mutable ,(muttable)(sync,only support one by one)
+
+string built used for add the value when persion string.(non sync, support all threads at the time)
+ 
+
+*/
