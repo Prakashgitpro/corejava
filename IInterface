@@ -1,0 +1,17 @@
+package corejava;
+public interface IInterface {
+
+public void mobile ();
+
+}
+
+
+/*Note
+
+This is interface ,in this program we are not able to write any implement method only able to create method 
+
+we are able to use multiple inheritance in using this interface 
+
+
+this is fully abstract not able to show any implementation 
+*/
