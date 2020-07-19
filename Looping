@@ -1,0 +1,39 @@
+package corejava;
+public class ELooping {
+public static void main(String[] args) 
+{		
+	/*for (int i=0;i<=25;i++){		
+	System.out.println("this is for loop");	
+}*/
+	/*int i=0;
+	while (i<25){
+	System.out.println("this is while loop");
+	i++;
+}*/
+	int i=20;
+	do{
+		System.out.println("this is do while loop");
+		i++;
+	}while (i<25);
+}	
+}
+
+/*Note
+
+totally 3 looping  available 1st on for loop it directly mention initialize(i=0),condition(i<25),and increment(i++);
+
+ while loop separately we need to write step by step 
+ 
+ initialize(i=0),
+ while(condition(i<25)),
+  increment(i++)
+  
+  do while 
+  
+  
+ initialize(i=0),
+ do(increment(i++)){
+ while(condition(i<25)),
+  }
+
+*/
