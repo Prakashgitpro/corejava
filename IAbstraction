@@ -1,0 +1,21 @@
+package corejava;
+public abstract class IAbstraction {
+public abstract void display();
+public void sim(){
+	System.out.println("must have sim slot");
+}
+}
+
+
+
+
+/*
+
+this is abstraction we need to check all i series programs for this 
+
+for display method we dont have any idea for type we just share display must have in phone in child class will add that 
+
+in this case we are hiding the implementation so we need to use abstract keyword ,we just provide model ,child class will execte 
+
+
+*/
