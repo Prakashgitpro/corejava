@@ -1,0 +1,51 @@
+package corejava;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
+public class KArrayLinkcol {	
+public void LinkListEx(){
+List <String> arrayLList= new ArrayList<String>();
+	arrayLList.add("Prakash");
+	arrayLList.add("BE");
+	arrayLList.add("SoftwareENG");
+	System.out.println(arrayLList.parallelStream());
+	//System.out.println(arrayLList);
+	//System.out.println(arrayLList.lastIndexOf("SoftwareENG"));
+	//Iterators:
+	//for (String string : arrayLList) {
+	//	System.out.println(string);
+	//}
+ListIterator<String> iterators=arrayLList.listIterator();
+	while(iterators.hasNext()){	
+		System.out.println(iterators.next());
+	}
+	while(iterators.hasPrevious()){
+		System.out.println(iterators.previous());			
+		}	
+	}
+public static void main(String[] args) {	
+	KArrayLinkcol array=new KArrayLinkcol();
+	array.LinkListEx();
+}
+}
+
+
+/*
+
+ArrayLIst:
+
+this is one of the class for collection List 
+
+we can save data throw array order and perform all type of operations 
+
+using iterators we can write reveres ,strict
+
+this is only suitable for search operation , not suit for insertion deletion operations
+
+
+
+
+
+
+
+*/
