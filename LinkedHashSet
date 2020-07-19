@@ -1,0 +1,27 @@
+package corejava;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+public class LLinkedHashCol {
+public static void main(String[] args) {
+		Set<String> linkedhashst=new LinkedHashSet<String>();
+
+linkedhashst.add("A");
+linkedhashst.add("c");
+linkedhashst.add("B");
+linkedhashst.add("B");
+ 	System.out.println(linkedhashst);
+for (int i=0;i<linkedhashst.size();i++){
+	 
+	 //System.out.println(linkedhashst.get(i));
+}
+}
+}
+
+
+/*
+ 
+ IT support insertion order and not support dublicated values 
+ 
+ */
+
