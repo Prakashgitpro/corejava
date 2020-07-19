@@ -1,0 +1,35 @@
+package corejava;
+public class Ginheritance {
+	public int steps=4;
+	public void block(){
+	System.out.println("this block require 4 steps ,how many steps available now:"+steps);
+	}	
+public static class inheritance2 extends Ginheritance{
+	public int steps1=4;
+	public void block2(){
+	System.out.println("this block require 8 steps so we can add from old class"+(steps1+steps));}	
+public static void main(String[] args) {
+	inheritance2 i=new inheritance2();
+	i.block();
+	i.block2();	
+}		
+}
+}
+
+/*
+
+this program in inheritance ,we can use the date from old class with keyword of extends
+
+ when we use extends we can able to use old class so that we can avoid program waste  
+ 
+ type: 
+ 1)single inhrt
+ 2)multi level inhrt
+ 3)multiple inhrt(not support)
+ 
+ 
+ 
+ */
+
+
+
