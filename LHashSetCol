@@ -1,0 +1,28 @@
+package corejava;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class LHashSetCol {
+
+	public static void main(String[] args) {
+
+		Set<String> hset=new HashSet<String>();
+		hset.add("A");
+		hset.add("C");
+		hset.add("C");
+		hset.add("B");
+		
+		System.out.println(hset);
+		
+		
+		System.out.println();
+	}
+}
+
+/*
+Note:
+
+Insertion order not maintain, duplicate not allow
+
+*/
