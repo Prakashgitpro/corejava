@@ -1,0 +1,63 @@
+package corejava;
+public class Fstatic {
+/*// Static method
+public void nonstatic(){
+		System.out.println("non static mentiond");
+}	
+public static void staticmethod(){
+		System.out.println("this menthod have static keyword");
+}	
+public static void main(String[] args) {	
+		STATIC s =new STATIC();
+		s.nonstatic();
+		staticmethod();
+}
+}*/
+/*//static variable
+	static int a;
+	int b;
+public static void main(String[] args){
+	STATIC s=new STATIC();
+	s.b=10;
+	a=12;
+}
+}
+*/
+
+//STATIC BLOCK:
+static {
+	System.out.println("block 1");
+}
+static {
+	System.out.println("block2");
+}	
+public static void main(String[] args)	{
+	System.out.println("main method");		
+}	
+}
+
+/* NOTE:
+
+this is static keyword program  ,
+In this keyword have 4 types 
+static method ,static block,static variable 
+
+for static method we need to add static in  then it will execute without creating any obj in main method 
+
+for static variable we need to add static in variable then it can accessible without creating obj in any static method 
+
+for static block we need to add static in block name then it will perform initial execution under inserting order
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
