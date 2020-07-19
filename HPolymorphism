@@ -1,0 +1,42 @@
+package corejava;
+
+import corejava.Ginheritance.inheritance2;
+
+//Method overLoading:::
+public class  {
+public static void exam(int std){
+	System.out.println("i have 950 mark in "+std);
+}
+public static void exam(int std,int std1){	
+	System.out.println("i have above 400 in"+std+"and"+std1);
+}
+public static void main(String[] args) {
+	exam(12);
+	exam(10, 8);
+}}
+
+/*Method overriding::(inheritance method adding)
+public class HPolymorphism extends inheritance2{
+@Override
+public void block2(){
+		System.out.println("need extra 2 steps"+(steps1+steps+2));
+}
+public static void main(String[] args) {
+inheritance2 i=new HPolymorphism();
+i.block2();
+i.block();
+}	
+}/*
+
+/*Note
+
+this is polymorphism program ,in this concept we have two types
+
+Method overloading,method overriding 
+
+method over loading is we are able to use same method name in same class when we are mention different parameters in that method 
+
+method overriding is we are able to access other class or methods when we using inheritance and we can modify the other class methods 
+when we are using Override 
+
+*/
