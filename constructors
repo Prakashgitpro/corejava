@@ -1,0 +1,39 @@
+//Parameterized constructor 
+
+package corejava;
+import java.util.Scanner;
+public class Bconstructors {
+		int input1;
+		int input2;
+Bconstructors(){
+		System.out.println("no argument costructor");
+		}			
+Bconstructors(int i,int j){
+		input1=i;
+		input2=j;
+}
+public void addition()
+{
+		System.out.println("output is"+(input1+input2));	
+}
+@SuppressWarnings("resource")
+public static void main(String[] args) {
+	Scanner s=new Scanner(System.in);
+	System.out.println("a is");
+	int a=s.nextInt();
+	System.out.println("b is");
+	int b=s.nextInt();
+	Bconstructors constructors=new Bconstructors(a,b);
+	constructors.addition();
+	Bconstructors constructors2=new Bconstructors();
+	constructors2.addition();
+}
+}
+/*Note
+In this program we have used no argument and Parameterized constructors
+constructor used for initialized the obj 
+
+if you need to create constructor just use class name then only able to create 
+ 
+ 
+*/
