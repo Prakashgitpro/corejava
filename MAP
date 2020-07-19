@@ -1,0 +1,68 @@
+package corejava;
+import java.util.LinkedHashMap;
+import java.util.Map;
+public class MAP {
+public void HashMap(){
+System.out.println("==================This is Hash Map=======================");
+		Map<Integer, String> hashmap=new java.util.HashMap<>();
+		hashmap.put(1, "A");
+		hashmap.put(3, "B");
+		hashmap.put(4, "C");
+		hashmap.put(2, "S");
+		hashmap.put(0, "A");
+		System.out.println(hashmap);
+		System.out.println(hashmap.entrySet());
+		for (int i=0;i<hashmap.size();i++){
+		System.out.println(hashmap.get(i));
+		}
+		}
+public void LinkedMap(){
+System.out.println("==================This is LinkedHash Map===============");
+		Map<Integer, String> LinkedMap=new LinkedHashMap<>();
+		LinkedMap.put(0, "D");
+		LinkedMap.put(2, "B");
+		LinkedMap.put(1, "C");
+		LinkedMap.put(3, "A");
+		System.out.println(LinkedMap);
+		System.out.println(LinkedMap.entrySet());
+		for (int j=0;j<LinkedMap.size();j++){
+		System.out.println(LinkedMap.get(j));
+}
+}
+public void TreeMap(){
+System.out.println("==================This is Tree Map======================");
+		Map<Integer, String> TreeMap=new java.util.TreeMap<>();
+		TreeMap.put(0, "D");
+		TreeMap.put(2, "B");
+		TreeMap.put(1, "C");
+		TreeMap.put(3, "A");
+		System.out.println(TreeMap);
+		System.out.println(TreeMap.entrySet());
+		for (int j=0;j<TreeMap.size();j++){
+		System.out.println(TreeMap.get(j));
+}
+}
+public static void main(String[] args) {
+		MAP MAP=new MAP();
+		MAP.HashMap();
+		MAP.LinkedMap();
+		MAP.TreeMap();
+}
+
+}
+
+/*
+Note:
+
+Mapping is used for find the values with use of key this is the main purpose 
+
+three map available, all the map not support dublicate values 
+
+hash and tree map not support inserting order 
+
+null key can overwrite hash and linked map , tree map not support null key 
+*/
+
+
+
+
