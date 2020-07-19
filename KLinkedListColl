@@ -1,0 +1,31 @@
+package corejava;
+
+import java.util.LinkedList;
+import java.util.ListIterator;
+
+public class KLinkedListColl {
+
+	public static void main(String[] args) {
+		LinkedList <String> list=new LinkedList<String>();
+list.add("A");
+list.add("C");
+list.add("B");
+list.add("S");
+System.out.println(list);
+System.out.println(list.pollFirst());
+System.out.println(list);
+System.out.println(list.removeFirst());
+ListIterator<String> iterators=list.listIterator();
+while(iterators.hasNext()){
+	
+	System.out.println("frwd"+iterators.next());
+}
+while( iterators.hasPrevious()){
+	System.out.println("revrs"+iterators.previous());
+}
+		for (String string : list) {
+		System.out.println(string);	
+		}
+	}
+}
+//Linked list support accenting order not support insert operations
