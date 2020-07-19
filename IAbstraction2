@@ -1,0 +1,36 @@
+package corejava;
+public class IAbstraction2 extends IAbstraction implements IInterface,test{
+@Override
+public void display(){
+System.out.println("must have disply all phone");
+}
+public static void main(String[] args)
+{
+	IAbstraction A=new IAbstraction2();
+	A.display();
+	A.sim();
+	IInterface i=new IAbstraction2();
+	i.mobile();
+	test t=new IAbstraction2();
+	t.mobile1();
+}
+@Override
+public void mobile() {
+	System.out.println("all the parts ready ");
+	
+}
+@Override
+public void mobile1() {
+	System.out.println("testing");
+	
+}
+}
+
+
+/*
+
+this is  not a abstract  ,we have added abstract method and interface both in same program 
+
+we have taken idea from both abstract and interface method and implements this program 
+
+*/
