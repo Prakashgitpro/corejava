@@ -1,0 +1,38 @@
+package corejava;
+
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class LTreeSetCol {
+
+	public static void main(String[] args) {
+
+		TreeSet<String> Tree=new TreeSet<String>();
+		Tree.add("A");
+		Tree.add("D");
+		Tree.add("V");
+		Tree.add("B");
+		Tree.add("s");
+
+		System.out.println(Tree);
+		Iterator<String> iterator=Tree.descendingIterator();
+		while (iterator.hasNext()){
+			System.out.println(iterator.next());
+		}
+
+
+
+		/*
+
+ It is not allow duplicate and istertion order , show only accending order 
+
+
+		 */
+
+
+
+
+
+	}
+
+}
